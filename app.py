@@ -40,7 +40,7 @@ def parse_text_file(uploaded_file):
 # --- STREAMLIT UI LAYOUT ---
 st.set_page_config(page_title="Text to Spreadsheet Converter", page_icon="📊", layout="centered")
 
-st.title("📊 File Converter: .txt to CSV/Excel")
+st.title("File Converter: .txt to CSV/Excel")
 st.write("Upload a structured or plain text file, select your format, and download the converted result.")
 
 st.divider()
